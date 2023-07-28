@@ -1,0 +1,20 @@
+<%- include("header"); -%>
+
+
+  <h1 id="heading"><a id="heading" href="/">Notes</a></h1>
+
+
+
+<div class="addNew">
+  <a href="/compose">Add New</a>
+</div>
+
+<% posts.forEach(function(post){ %>
+  <div class="">
+    <p class="post"><%= post + "..." %><a href="">Read More</a></p>
+  </div>
+
+<% }); %>
+</div>
+
+<%- include("footer"); -%>

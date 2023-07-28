@@ -1,0 +1,190 @@
+body
+{
+  font-family: 'Merriweather', serif;
+  /* background-color: #F4EEE0; */
+  /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
+  /* background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); */
+  background-color: #B9EDDD;
+}
+/* EFE1D1
+331D2C
+A78295
+3F2E3E */
+.quote
+{
+  background-color:#87CBB9;
+  text-align: center;
+  font-size: 15px;
+}
+.rect
+{
+  margin: auto;
+  width:500px;
+  height: 700px;
+  background-color: #3C2A21;
+  border-radius: 5%;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.text-rect
+{
+  margin: auto;
+  margin-bottom: -7px;
+  width:500px;
+  height: 680px;
+  background-color: #f5edd0;
+  resize: none;
+  font-size: 25px;
+  color: #1A120B;
+  padding: 50px;
+  font-family: 'Merriweather', serif;
+  border-radius: 5%;
+  border-color: #1A120B;
+  border-width: 5px;
+  border-style: solid;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.notes {
+    color: black;
+    background-image: -webkit-linear-gradient(90deg, #d0a090 1px, #d0a090 1px), linear-gradient(#fdf8c8, #fdf8c8 23px, #ccd 23px, #ccd 24px, #fdf8c8 24px);
+    background-image: -moz-linear-linear-gradient(90deg, #d0a090 1px, #d0a090 1px), linear-gradient(#fdf8c8, #fdf8c8 23px, #ccd 23px, #ccd 24px, #fdf8c8 24px);
+    background-image: -ms-linear-gradient(90deg, #d0a090 1px, #d0a090 1px), linear-gradient(#fdf8c8, #fdf8c8 23px, #ccd 23px, #ccd 24px, #fdf8c8 24px);
+    background-image: -o-linear-gradient(90deg, #d0a090 1px, #d0a090 1px), linear-gradient(#fdf8c8, #fdf8c8 23px, #ccd 23px, #ccd 24px, #fdf8c8 24px);
+    background-image: linear-gradient(90deg, #d0a090 1px, #d0a090 1px), linear-gradient(#fdf8c8, #fdf8c8 23px, #ccd 23px, #ccd 24px, #fdf8c8 24px);
+    background-size: 2px 100%, 100% 24px;
+    background-position: 40px top, left 0px;
+    background-repeat: no-repeat, repeat;
+    line-height: 25px !important;
+    background-attachment: local;
+}
+.dateTime
+{
+  height: 25px;
+  width: 500px;
+  text-align: center;
+  background-color: #1A120B;
+  font-size: 12px;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  color: #E5E5CB;
+}
+#heading
+{
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 70px;
+  color: #1A120B;
+  font-family: cursive;
+  text-decoration: none;
+}
+#heading:hover
+{
+  font-size: 75px;
+}
+.footer
+{
+  text-align: center;
+  margin-top: 100px;
+  color: #3F2305;
+}
+.navText
+{
+  font-size: 20px;
+  color: black;
+}
+.navText:hover
+{
+  font-size: 20px;
+  color: black;
+  background-color: black;
+}
+
+.navbar-brand
+{
+  font-size: 30px;
+  color: black;
+  font-family: cursive;
+  font-weight: bold;
+}
+.addNew
+{
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  width: 500px;
+  height: 200px;
+  font-size: 30px;
+  /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); */
+  border-width: 2px;
+  background-color: #87CBB9;
+  border-style: solid;
+  padding: 50px;
+}
+.addNew a
+{
+  color: black;
+}
+.home
+{
+  margin-bottom: 20px;
+  /* font-style: italic; */
+  font-size: 50px;
+  color: #3F2305;
+  text-align: center;
+  font-family: serif;
+}
+.post
+{
+  /* background-color: #F6F1E9; */
+  /* background-color: #a6c0fe; */
+  background-color: #D0F5BE;
+  font-size: 25px;
+  color: black;
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  margin-top: 10px;
+  border-width: 2px;
+  border-style: solid;
+  padding: 5px;
+  /* border-color: #F7F5EB; */
+}
+.post:hover
+{
+  background-color: #f5edd0;
+  width: 510px;
+  height: 210px;
+  border-width: 3px;
+}
+.btn
+{
+  text-align: center;
+  background-color: #FFEAD2;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #482121;
+
+}
+.btn:hover
+{
+  text-align: center;
+  background-color: #482121;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-width: 2px;
+  border-style: solid;
+  color: #E5E5CB;
+  border-color: #E5E5CB
+}
+/* font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif; */
+/* E5E5CB lightest
+F7E6C4
+1A120B
+D5CEA3 lighter
+3C2A21 */

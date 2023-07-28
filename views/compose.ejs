@@ -1,0 +1,23 @@
+<%- include("header") %>
+
+<h1 id="heading"><a id="heading" href="/">Notes</a></h1>
+ <div class="rect">
+   <form class="" action="/compose" method="post">
+     <textarea class="text-rect notes" name="newPost" rows="80" cols="80" placeholder="Write here..." required></textarea>
+   <p class="dateTime">Edited at <%= editedAt %> </p>
+   <button class="btn btn-lg" type="submit" name="submitBtn">Submit</button>
+ </form>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include("footer") %>
